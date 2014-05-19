@@ -1,0 +1,27 @@
+.slice {
+    display: table;
+    table-layout: fixed; // makes items equal sizes automatically
+    width: 100%;
+}
+
+.slice-layout {
+    table-layout: auto;
+}
+
+.slice-item {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+
+@include grid-respond(0, 9) {
+    .slice-item,
+    .slice-item.on-mobile {
+        display: table-row;
+        width: 100% !important;
+    }
+
+    .slice-item.on-mobile {
+        height: 100%;
+    }
+}

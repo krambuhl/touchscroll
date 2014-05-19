@@ -1,0 +1,4 @@
+{
+	"stylesheets": ["sass/style.css"],
+	"scripts": ["../dist/touchscroll.js", "scripts/jquery.js", "scripts/example.js"]
+}

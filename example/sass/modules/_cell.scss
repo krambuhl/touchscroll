@@ -1,0 +1,30 @@
+.cell {
+	display: block;
+	max-width: 1280px;
+	height: 40vw;
+	margin: auto;
+	margin-top: 5vw;
+
+	&:nth-child(5n+1) { background: lighten(red, 40); }
+	&:nth-child(5n+2) { background: lighten(yellow, 35); }
+	&:nth-child(5n+3) { background: lighten(desaturate(green, 40), 50); }
+	&:nth-child(5n+4) { background: lighten(blue, 30); }
+	&:nth-child(5n+5) { background: lighten(desaturate(purple, 40), 50); }
+}
+.cover-test {
+	position: absolute;
+	top: 0px;
+	z-index: 5;
+
+	width: 100px;
+	height: 100px;
+
+	margin: 10px;
+	padding: 10px;
+
+	background: #ccc;
+	border: 3px solid #666;
+}
+
+#standard { left: 0; }
+#test { right: 0; }

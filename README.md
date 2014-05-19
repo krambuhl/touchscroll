@@ -1,4 +1,4 @@
-touchscroll
-===========
+Touchscroll
+----
 
-Adds a touchscroll event to the dom that fires scroll events more precisely on touch devices.
+Adds window event for window scrolling that updates during touch scroll and momentum events.

@@ -1,0 +1,149 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .clearfix:after {
+    clear: both; }
+
+body {
+  background: white;
+  color: #1e2223;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Helvetica', sans-serif, sans-serif;
+  line-height: 1.3em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent; }
+
+::-moz-selection {
+  background: #bbbcbd; }
+
+::selection {
+  background: #bbbcbd; }
+
+::-moz-selection {
+  background: #bbbcbd; }
+
+img::-moz-selection {
+  background: #bbbcbd; }
+
+img::selection {
+  background: #bbbcbd; }
+
+img::-moz-selection {
+  background: #bbbcbd; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica', sans-serif, Verdana, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+em, cite {
+  font-style: italic; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: none 0.25s ease;
+  transition: none 0.25s ease;
+  -webkit-backface-visibility: hidden; }
+
+.slice {
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+
+.slice-layout {
+  table-layout: auto; }
+
+.slice-item {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%; }
+
+@media only screen and (min-width: 0px) and (max-width: 719px) {
+  .slice-item, .slice-item.on-mobile {
+    display: table-row;
+    width: 100% !important; }
+  .slice-item.on-mobile {
+    height: 100%; } }
+
+.cell {
+  display: block;
+  max-width: 1280px;
+  height: 40vw;
+  margin: auto;
+  margin-top: 5vw; }
+  .cell:nth-child(5n+1) {
+    background: #ffcccc; }
+  .cell:nth-child(5n+2) {
+    background: #fffeb3; }
+  .cell:nth-child(5n+3) {
+    background: #99e699; }
+  .cell:nth-child(5n+4) {
+    background: #9999ff; }
+  .cell:nth-child(5n+5) {
+    background: #e699e6; }
+
+.cover-test {
+  position: absolute;
+  top: 0px;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background: #ccc;
+  border: 3px solid #666; }
+
+#standard {
+  left: 0; }
+
+#test {
+  right: 0; }
